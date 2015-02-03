@@ -1,0 +1,1 @@
+echo WIN8.1 Machine - IE11set HUBURL="http://trustyvm.dnet:4444/grid/register"set BROWSERCAPS="maxInstances=1,browserName=internet explorer,version=11"java -jar selenium-server-standalone-2.44.0.jar -role node -hub %HUBURL% -port 4411 -maxSession 1 -browser %BROWSERCAPS%@pause
